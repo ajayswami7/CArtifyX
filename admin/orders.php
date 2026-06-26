@@ -1,0 +1,3 @@
+<?php $adminTitle = 'Orders'; include __DIR__ . '/_layout.php'; $orders = db()?db()->query('SELECT o.*, u.name user_name FROM orders o LEFT JOIN users u ON u.id=o.user_id ORDER BY o.id DESC')->fetchAll():[]; ?>
+<div class="admin-card"><table class="admin-table"><tr><th>ID</th><th>Customer</th><th>Total</th><th>Payment</th><th>Status</th><th>Date</th></tr><?php foreach($orders as $o): ?><tr><td>#<?= (int)$o['id'] ?></td><td><?= e($o['user_name']) ?></td><td><?= money_inr($o['total']) ?></td><td><?= e($o['payment_method']) ?></td><td><?= e($o['status']) ?></td><td><?= e($o['created_at']) ?></td></tr><?php endforeach; ?></table></div>
+<?php include __DIR__ . '/_footer.php'; ?>

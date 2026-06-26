@@ -1,0 +1,8 @@
+<?php
+require_once __DIR__ . '/../includes/functions.php';
+require_admin();
+$adminTitle = $adminTitle ?? 'Admin';
+function admin_active(string $file): string { return basename($_SERVER['PHP_SELF']) === $file ? 'active' : ''; }
+?>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?= e($adminTitle) ?> - CArtifyX Admin</title><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"><link href="../assets/css/admin.css" rel="stylesheet"></head><body>
+<div class="admin-shell"><aside class="admin-sidebar"><div class="admin-brand">CArtifyX Admin</div><a class="<?= admin_active('dashboard.php') ?>" href="dashboard.php"><i class="fa-solid fa-chart-line"></i>Dashboard</a><a class="<?= admin_active('products.php') ?>" href="products.php"><i class="fa-solid fa-shirt"></i>Products</a><a class="<?= admin_active('categories.php') ?>" href="categories.php"><i class="fa-solid fa-layer-group"></i>Categories</a><a class="<?= admin_active('orders.php') ?>" href="orders.php"><i class="fa-solid fa-receipt"></i>Orders</a><a class="<?= admin_active('users.php') ?>" href="users.php"><i class="fa-solid fa-users"></i>Users</a><a href="../index.php"><i class="fa-solid fa-store"></i>Storefront</a><a href="logout.php"><i class="fa-solid fa-right-from-bracket"></i>Logout</a></aside><main class="admin-main"><div class="admin-top"><div><h1><?= e($adminTitle) ?></h1><p>Manage the luxury fashion catalog and orders.</p></div><a class="admin-btn pink" href="add-product.php">Add Product</a></div>
