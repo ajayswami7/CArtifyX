@@ -25,7 +25,8 @@
 
 The project demonstrates complete **full-stack web development** using **PHP**, **MySQL**, **HTML**, **CSS**, **JavaScript**, and **Bootstrap 5**.
 
-**The complete source code is private. It can be shared upon request for academic or recruitment purposes**
+*The complete source code is private. It can be shared upon request for academic or recruitment purposes*
+
 ---
 
 # ✨ Features
