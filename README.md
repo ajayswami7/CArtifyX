@@ -1,7 +1,7 @@
 # 🛍️ CArtifyX - Luxury Fashion Shopping Website
 
 <p align="center">
-  <img src="screenshots/banner.png" alt="CArtifyX Banner" width="100%">
+  <img width="1983" height="793" alt="logo" src="https://github.com/user-attachments/assets/213caddb-a48b-4687-8f4e-4b2cb7961357" />
 </p>
 
 <p align="center">
@@ -275,8 +275,8 @@ http://localhost/CArtifyX/
 
 **Ajay**
 
-- GitHub: https://github.com/YourUsername
-- LinkedIn: https://linkedin.com/in/YourProfile
+- GitHub: https://github.com/ajayswami7
+- LinkedIn: https://www.linkedin.com/in/ajayswami/
 
 ---
 
