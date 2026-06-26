@@ -1,4 +1,4 @@
-# 🛍️ CArtifyX - Luxury Fashion Shopping Website
+# CArtifyX - Luxury Fashion Shopping Website
 
 <p align="center">
   <img width="1983" height="793" alt="logo" src="https://github.com/user-attachments/assets/213caddb-a48b-4687-8f4e-4b2cb7961357" />
@@ -19,7 +19,7 @@
 
 ---
 
-# 📖 About
+# About
 
 **CArtifyX** is a modern luxury fashion shopping website inspired by premium fashion brands and leading e-commerce platforms. The application provides customers with an elegant shopping experience while offering administrators powerful tools to manage products, categories, and customer orders.
 
@@ -29,9 +29,9 @@ The project demonstrates complete **full-stack web development** using **PHP**, 
 
 ---
 
-# ✨ Features
+# Features
 
-## 👤 Customer Features
+## Customer Features
 
 - User Registration & Login
 - Browse Fashion Products
@@ -48,7 +48,7 @@ The project demonstrates complete **full-stack web development** using **PHP**, 
 
 ---
 
-## 🛠️ Admin Features
+## Admin Features
 
 - Secure Admin Login
 - Dashboard
@@ -61,7 +61,7 @@ The project demonstrates complete **full-stack web development** using **PHP**, 
 
 ---
 
-# 🚀 Tech Stack
+# Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -76,7 +76,7 @@ The project demonstrates complete **full-stack web development** using **PHP**, 
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```text
 CArtifyX/
@@ -116,7 +116,7 @@ CArtifyX/
 
 ---
 
-# 🗄️ Database
+# Database
 
 Main Tables
 
@@ -129,7 +129,7 @@ Main Tables
 
 ---
 
-# 📸 Screenshots
+# Screenshots
 
 ## Home Page
 
@@ -171,9 +171,9 @@ Main Tables
 
 ---
 
-# ⚙️ Installation
+# Installation
 
-## 1️⃣ Clone Repository
+## 1. Clone Repository
 
 ```bash
 git clone https://github.com/ajayswami7/CArtifyX.git
@@ -181,7 +181,7 @@ git clone https://github.com/ajayswami7/CArtifyX.git
 
 ---
 
-## 2️⃣ Move Project
+## 2️. Move Project
 
 Copy the project folder into
 
@@ -191,7 +191,7 @@ xampp/htdocs/
 
 ---
 
-## 3️⃣ Start XAMPP
+## 3️. Start XAMPP
 
 Start
 
@@ -200,7 +200,7 @@ Start
 
 ---
 
-## 4️⃣ Import Database
+## 4️. Import Database
 
 Open
 
@@ -222,7 +222,7 @@ database/cartifyx.sql
 
 ---
 
-## 5️⃣ Configure Database
+## 5️. Configure Database
 
 Open
 
@@ -241,7 +241,7 @@ $database = "cartifyx";
 
 ---
 
-## 6️⃣ Run Project
+## 6️. Run Project
 
 Open
 
@@ -251,7 +251,7 @@ http://localhost/CArtifyX/
 
 ---
 
-# 🔐 Security Features
+# Security Features
 
 - Password Hashing
 - Session Authentication
@@ -261,7 +261,7 @@ http://localhost/CArtifyX/
 
 ---
 
-# 🌟 Future Enhancements
+# Future Enhancements
 
 - Online Payment Gateway
 - AI Product Recommendations
@@ -273,7 +273,7 @@ http://localhost/CArtifyX/
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **Ajay**
 
@@ -282,12 +282,12 @@ http://localhost/CArtifyX/
 
 ---
 
-# 📄 License
+# License
 
 This project is developed for **educational purposes** and can be used as a reference for learning full-stack web development.
 
 ---
 
-## ⭐ Support
+## Support
 
 If you like this project, please consider giving it a **⭐ Star** on GitHub!
