@@ -26,7 +26,7 @@ Luxury Fashion Shopping Website
 1. Clone repository
 
 ```bash
-git clone https://github.com/YourUsername/CArtifyX.git
+git clone https://github.com/ajayswami7/CArtifyX.git
 ```
 
 2. Import database
